@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-07T22:00:39.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="hVNo_T8bJSWBweWn3cLk" version="13.8.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-07T22:03:17.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="lF7dQsv5qURk_I72MI2F" version="13.8.6" type="github" pages="5">
   <diagram id="u_9rEFnVpWAHYIVJq_xr" name="dist log">
     <mxGraphModel dx="1406" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1048,11 +1048,17 @@
         <mxCell id="ySTgnF5pJNjlfUS0CGWx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ySTgnF5pJNjlfUS0CGWx-1" source="ySTgnF5pJNjlfUS0CGWx-11" target="ySTgnF5pJNjlfUS0CGWx-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ySTgnF5pJNjlfUS0CGWx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ySTgnF5pJNjlfUS0CGWx-1" source="ySTgnF5pJNjlfUS0CGWx-11" target="ySTgnF5pJNjlfUS0CGWx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ySTgnF5pJNjlfUS0CGWx-11" value="check process status&lt;br&gt;ps -aux | grep &amp;lt;user_id&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="ySTgnF5pJNjlfUS0CGWx-1">
           <mxGeometry x="459" y="350" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ySTgnF5pJNjlfUS0CGWx-13" value="print out what process do&amp;nbsp;&lt;br&gt;strace -p &amp;lt;process_id&amp;gt; -e write" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="ySTgnF5pJNjlfUS0CGWx-1">
           <mxGeometry x="459" y="473" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ySTgnF5pJNjlfUS0CGWx-15" value="you can run that process alone&lt;br&gt;check it process works.." style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;dashed=1;" vertex="1" parent="ySTgnF5pJNjlfUS0CGWx-1">
+          <mxGeometry x="684" y="350" width="186" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
